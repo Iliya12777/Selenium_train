@@ -1,0 +1,29 @@
+#Selector for 'Sign-in block'
+CSS  : $$('li[class="account dropdown"]')
+XPATH: #will_be_done
+
+#Selector for 'Manufacturers block'
+CSS  : $$('li[class="manufacturers dropdown"]')
+XPATH: #will_be_done
+#Selector for Clicked Ducks(Yellow one)
+CSS  : $$('div[class=product] a[title*="Yellow"]')
+XPATH: #will_be_done
+
+# Selector for Popular Green Duck
+CSS   : $$('section[id*="popular"] div[class="listing products"] article[class="product-column"] div[class="image-wrapper"] img[alt*="Green"]')
+XPATH : #will_be_done
+# Selector for Latest Green Duck
+CSS   : $$('section[id*="latest"] div[class="listing products"] article[class="product-column"] div[class="image-wrapper"] img[alt*="Green"]')
+XPATH : #will_be_done
+
+# Selector for Input Field "E-mail"
+CSS   : $$('input[type="email"]')
+XPATH : #will_be_done
+
+# Selector for Input Field "Password"
+CSS   : $$('input[type="password"]')
+XPATH : #will_be_done
+
+# Selector for "Create Account"
+CSS   : $$('ul[class="dropdown-menu"] a[href*="create_account"]')
+XPATH : #will_be_done
