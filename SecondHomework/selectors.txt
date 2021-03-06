@@ -1,29 +1,46 @@
+# Change History:
+# 2021-03-6-06 - Xpath added, python exmaples added
+
+# Python cheat-list
+# assume that 'ff' is FireFox Selenium WebDriver
+
+
 #Selector for 'Sign-in block'
-CSS  : $$('li[class="account dropdown"]')
-XPATH: #will_be_done
+CSS   : $$('li[class="account dropdown"]')
+XPATH : $x('//*[contains(@class,"account dropdown")]')
+PYTHON: ff.find_element_by_xpath('//*[contains(@class, "account dropdown")]')
 
 #Selector for 'Manufacturers block'
-CSS  : $$('li[class="manufacturers dropdown"]')
-XPATH: #will_be_done
+CSS   : $$('li[class="manufacturers dropdown"]')
+XPATH : $x('//li[contains(@class, "manufacturers dropdown")]')
+PYTHON: ff.find_element_by_xpath('//li[contains(@class, "manufacturers dropdown")]')
+
 #Selector for Clicked Ducks(Yellow one)
-CSS  : $$('div[class=product] a[title*="Yellow"]')
-XPATH: #will_be_done
+CSS   : $$('div[class=product] a[title*="Yellow"]')
+XPATH : $x('//section[@id="box-recently-viewed-products"]//a[contains(@title, "Yellow")]')
+PYTHON: ff.find_element_by_xpath('//section[@id="box-recently-viewed-products"]//a[contains(@title, "Yellow")]')
 
 # Selector for Popular Green Duck
 CSS   : $$('section[id*="popular"] div[class="listing products"] article[class="product-column"] div[class="image-wrapper"] img[alt*="Green"]')
-XPATH : #will_be_done
+XPATH : $x('//section[@id="box-popular-products"]//a[contains(@title, "Green")]')
+PYTHON: ff.find_element_by_xpath('//section[@id="box-popular-products"]//a[contains(@title, "Green")]')
+
 # Selector for Latest Green Duck
 CSS   : $$('section[id*="latest"] div[class="listing products"] article[class="product-column"] div[class="image-wrapper"] img[alt*="Green"]')
-XPATH : #will_be_done
+XPATH : $x('//section[@id="box-latest-products"]//a[@title="Green Duck"]')
+PYTHON: ff.find_element_by_xpath('//section[@id="box-latest-products"]//a[@title="Green Duck"]')
 
 # Selector for Input Field "E-mail"
 CSS   : $$('input[type="email"]')
-XPATH : #will_be_done
+XPATH : $x('//input[@type="email"]')
+PYTHON: ff.find_element_by_xpath('//input[@type="email"]')
 
 # Selector for Input Field "Password"
 CSS   : $$('input[type="password"]')
-XPATH : #will_be_done
+XPATH : $x('//input[@type="password"]')
+PYTHON: ff.find_element_by_xpath('//input[@type="password"]')
 
 # Selector for "Create Account"
 CSS   : $$('ul[class="dropdown-menu"] a[href*="create_account"]')
-XPATH : #will_be_done
+XPATH : //ul[@class="dropdown-menu"]//a[contains(@href, "create")]
+PYTHON: ff.find_element_by_xpath('//ul[@class="dropdown-menu"]//a[contains(@href, "create")]')
