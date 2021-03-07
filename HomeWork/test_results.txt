@@ -1,20 +1,20 @@
 Admin page opened
 Main Categories parsed from site ['appearance', 'catalog', 'countries', 'currencies', 'customers', 'geo_zones', 'languages', 'modules', 'orders', 'pages', 'reports', 'settings', 'slides', 'tax', 'translations', 'users', 'vqmods'])
 Clicking by categories
-Subcategories found ['template', 'logotype']
-Subcategories found ['catalog', 'attribute_groups', 'manufacturers', 'suppliers', 'delivery_statuses', 'sold_out_statuses', 'quantity_units', 'csv']
-Subcategories found ['customers', 'csv', 'newsletter']
-Subcategories found ['languages', 'storage_encoding']
-Subcategories found ['customer', 'shipping', 'payment', 'order', 'order_total', 'jobs']
-Subcategories found ['orders', 'order_statuses']
-Subcategories found ['pages', 'csv']
-Subcategories found ['monthly_sales', 'most_sold_products', 'most_shopping_customers']
-Subcategories found ['store_info', 'defaults', 'email', 'listings', 'customer_details', 'legal', 'images', 'checkout', 'advanced', 'security']
-Subcategories found ['tax_rates', 'tax_classes']
-Subcategories found ['search', 'scan', 'csv']
+Subcategories found in categorie "appearance": ['template', 'logotype']
+Subcategories found in categorie "catalog": ['catalog', 'attribute_groups', 'manufacturers', 'suppliers', 'delivery_statuses', 'sold_out_statuses', 'quantity_units', 'csv']
+Subcategories found in categorie "customers": ['customers', 'csv', 'newsletter']
+Subcategories found in categorie "languages": ['languages', 'storage_encoding']
+Subcategories found in categorie "modules": ['customer', 'shipping', 'payment', 'order', 'order_total', 'jobs']
+Subcategories found in categorie "orders": ['orders', 'order_statuses']
+Subcategories found in categorie "pages": ['pages', 'csv']
+Subcategories found in categorie "reports": ['monthly_sales', 'most_sold_products', 'most_shopping_customers']
+Subcategories found in categorie "settings": ['store_info', 'defaults', 'email', 'listings', 'customer_details', 'legal', 'images', 'checkout', 'advanced', 'security']
+Subcategories found in categorie "tax": ['tax_rates', 'tax_classes']
+Subcategories found in categorie "translations": ['search', 'scan', 'csv']
 Page Menu elements were clicked
-...
+.
 ----------------------------------------------------------------------
-Ran 3 tests in 24.501s
+Ran 3 tests in 25.773s
 
 OK

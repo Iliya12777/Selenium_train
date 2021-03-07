@@ -12,7 +12,6 @@ class HomeWork1(unittest.TestCase):
     2021-03-07 - Added class HomeWork1 rev1
     """
 
-    URL = 'http://158.101.173.161/';
     URLADMIN = 'http://158.101.173.161/admin'
     LOGIN = 'testadmin'
     PASSWORD = 'R8MRDAYT_test'
@@ -93,7 +92,7 @@ class HomeWork1(unittest.TestCase):
                         for href in hrefs[1:]:
                             sub_categories.append(re.search(RegEx_sub, href.get_attribute('href')).group(1))
                         if sub_categories:
-                            print(f'Subcategories found {sub_categories}')
+                            print(f'Subcategories found in categorie "{categorie}": {sub_categories}')
                             for sub_categorie in sub_categories:
                                 self.emulatedBrowser.find_element_by_xpath(f'//li[@data-code="{sub_categorie}"]/a[contains(@href, "{sub_categorie}")]').click()
                                 WebDriverWait(self.emulatedBrowser, 10).until(
