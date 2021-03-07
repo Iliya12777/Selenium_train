@@ -1,0 +1,20 @@
+Admin page opened
+Main Categories parsed from site ['appearance', 'catalog', 'countries', 'currencies', 'customers', 'geo_zones', 'languages', 'modules', 'orders', 'pages', 'reports', 'settings', 'slides', 'tax', 'translations', 'users', 'vqmods'])
+Clicking by categories
+Subcategories found ['template', 'logotype']
+Subcategories found ['catalog', 'attribute_groups', 'manufacturers', 'suppliers', 'delivery_statuses', 'sold_out_statuses', 'quantity_units', 'csv']
+Subcategories found ['customers', 'csv', 'newsletter']
+Subcategories found ['languages', 'storage_encoding']
+Subcategories found ['customer', 'shipping', 'payment', 'order', 'order_total', 'jobs']
+Subcategories found ['orders', 'order_statuses']
+Subcategories found ['pages', 'csv']
+Subcategories found ['monthly_sales', 'most_sold_products', 'most_shopping_customers']
+Subcategories found ['store_info', 'defaults', 'email', 'listings', 'customer_details', 'legal', 'images', 'checkout', 'advanced', 'security']
+Subcategories found ['tax_rates', 'tax_classes']
+Subcategories found ['search', 'scan', 'csv']
+Page Menu elements were clicked
+...
+----------------------------------------------------------------------
+Ran 3 tests in 24.501s
+
+OK
