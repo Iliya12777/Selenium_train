@@ -1,0 +1,116 @@
+Testing started at 13:44 ...
+D:\python\python.exe D:\PyCharm\plugins\python\helpers\pycharm\_jb_unittest_runner.py --path D:/projects/Selenium_train/HomeWork2/HomeWork2.py
+Launching unittests with arguments python -m unittest D:/projects/Selenium_train/HomeWork2/HomeWork2.py in D:\projects\Selenium_train\HomeWork2
+
+
+
+Ran 3 tests in 24.683s
+
+OK
+
+Process finished with exit code 0
+Trying to load webpage...
+Page loaded in 0:00:00.850509
+----------------------------------------------------------------------------------------------------
+Unique ducks found at "popular section" with links:
+http://158.101.173.161/rubber-ducks-c-1/red-duck-p-3
+http://158.101.173.161/rubber-ducks-c-1/subcategory-c-2/yellow-duck-p-1
+http://158.101.173.161/rubber-ducks-c-1/blue-duck-p-4
+http://158.101.173.161/rubber-ducks-c-1/purple-duck-p-5
+http://158.101.173.161/rubber-ducks-c-1/subcategory-c-2/green-duck-p-2
+----------------------------------------------------------------------------------------------------
+Navigating to duck http://158.101.173.161/rubber-ducks-c-1/subcategory-c-2/yellow-duck-p-1
+Page loaded in 0:00:00.429762
+Adding duck #0 in cart...
+Button clicked
+----------------------------------------------------------------------------------------------------
+Bought 1 ducks
+----------------------------------------------------------------------------------------------------
+Navigating to duck http://158.101.173.161/rubber-ducks-c-1/subcategory-c-2/green-duck-p-2
+Page loaded in 0:00:00.373945
+Adding duck #1 in cart...
+Cookies button clicked
+Button clicked
+----------------------------------------------------------------------------------------------------
+Bought 2 ducks
+----------------------------------------------------------------------------------------------------
+Navigating to duck http://158.101.173.161/rubber-ducks-c-1/purple-duck-p-5
+Page loaded in 0:00:00.377868
+Adding duck #2 in cart...
+Cookies button clicked
+Button clicked
+----------------------------------------------------------------------------------------------------
+Bought 3 ducks
+----------------------------------------------------------------------------------------------------
+Navigating to duck http://158.101.173.161/rubber-ducks-c-1/subcategory-c-2/green-duck-p-2
+Page loaded in 0:00:00.414941
+Adding duck #3 in cart...
+Cookies button clicked
+Button clicked
+----------------------------------------------------------------------------------------------------
+Bought 4 ducks
+----------------------------------------------------------------------------------------------------
+Loaded checkout page
+Evaluated count of unique ducks to be deleted - 3 ducks
+Deleted duck#0 from cart
+Deleted duck#1 from cart
+Deleted duck#2 from cart
+Cart is empty
+
+Testing started at 13:45 ...
+D:\python\python.exe D:\PyCharm\plugins\python\helpers\pycharm\_jb_unittest_runner.py --target HomeWork2.HomeWork2
+Launching unittests with arguments python -m unittest HomeWork2.HomeWork2 in D:\projects\Selenium_train\HomeWork2
+
+
+
+Ran 3 tests in 23.584s
+
+OK
+
+Process finished with exit code 0
+Trying to load webpage...
+Page loaded in 0:00:01.126934
+----------------------------------------------------------------------------------------------------
+Unique ducks found at "popular section" with links:
+http://158.101.173.161/rubber-ducks-c-1/red-duck-p-3
+http://158.101.173.161/rubber-ducks-c-1/subcategory-c-2/yellow-duck-p-1
+http://158.101.173.161/rubber-ducks-c-1/blue-duck-p-4
+http://158.101.173.161/rubber-ducks-c-1/purple-duck-p-5
+http://158.101.173.161/rubber-ducks-c-1/subcategory-c-2/green-duck-p-2
+----------------------------------------------------------------------------------------------------
+Navigating to duck http://158.101.173.161/rubber-ducks-c-1/red-duck-p-3
+Page loaded in 0:00:00.452735
+Adding duck #0 in cart...
+Button clicked
+----------------------------------------------------------------------------------------------------
+Bought 1 ducks
+----------------------------------------------------------------------------------------------------
+Navigating to duck http://158.101.173.161/rubber-ducks-c-1/subcategory-c-2/green-duck-p-2
+Page loaded in 0:00:00.331842
+Adding duck #1 in cart...
+Cookies button clicked
+Button clicked
+----------------------------------------------------------------------------------------------------
+Bought 2 ducks
+----------------------------------------------------------------------------------------------------
+Navigating to duck http://158.101.173.161/rubber-ducks-c-1/red-duck-p-3
+Page loaded in 0:00:00.295907
+Adding duck #2 in cart...
+Cookies button clicked
+Button clicked
+----------------------------------------------------------------------------------------------------
+Bought 3 ducks
+----------------------------------------------------------------------------------------------------
+Navigating to duck http://158.101.173.161/rubber-ducks-c-1/subcategory-c-2/green-duck-p-2
+Page loaded in 0:00:00.352057
+Adding duck #3 in cart...
+Cookies button clicked
+Button clicked
+----------------------------------------------------------------------------------------------------
+Bought 4 ducks
+----------------------------------------------------------------------------------------------------
+Loaded checkout page
+Evaluated count of unique ducks to be deleted - 2 ducks
+Deleted duck#0 from cart
+Deleted duck#1 from cart
+Cart is empty
